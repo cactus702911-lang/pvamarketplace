@@ -470,8 +470,14 @@
                     </div>
                     
                     <div class="input-group">
-                        <label class="input-label">Featured Image URL</label>
-                        <input type="text" id="edit-blog-image" class="input-field">
+                        <label class="input-label">Featured Image URL (or upload)</label>
+                        <div class="flex gap-2">
+                            <input type="text" id="edit-blog-image" class="input-field" placeholder="image.jpg">
+                            <input type="file" id="blog-image-upload" class="hidden" accept="image/*" onchange="handleImageUpload(this, 'edit-blog-image')">
+                            <button onclick="document.getElementById('blog-image-upload').click()" class="btn-primary text-xs whitespace-nowrap">Upload File</button>
+                            <button onclick="clearBlogImage()" class="btn-primary text-xs whitespace-nowrap">Remove Image</button>
+                        </div>
+                        <p class="text-[10px] text-slate-500 mt-1">Just enter the filename if it's in /images/products/. Otherwise, enter full URL or Base64.</p>
                     </div>
 
                     <div class="input-group">
@@ -679,6 +685,13 @@
         function clearProductImage() {
             const imageInput = document.getElementById('edit-prod-image');
             const fileInput = document.getElementById('prod-image-upload');
+            if (imageInput) imageInput.value = '';
+            if (fileInput) fileInput.value = '';
+        }
+
+        function clearBlogImage() {
+            const imageInput = document.getElementById('edit-blog-image');
+            const fileInput = document.getElementById('blog-image-upload');
             if (imageInput) imageInput.value = '';
             if (fileInput) fileInput.value = '';
         }
@@ -988,14 +1001,14 @@
             document.getElementById('edit-cat-desc').value = c.description || '';
             catQuill.root.innerHTML = c.content || '';
         }
-        function saveCurrentCategory() {
+        function saveCurrentCategory(silent = false) {
             if(currentCatIndex === null) return;
             cmsCategories[currentCatIndex].name = document.getElementById('edit-cat-name').value;
             cmsCategories[currentCatIndex].slug = document.getElementById('edit-cat-slug').value;
             cmsCategories[currentCatIndex].description = document.getElementById('edit-cat-desc').value;
             cmsCategories[currentCatIndex].content = catQuill.root.innerHTML;
             if (!Array.isArray(cmsCategories[currentCatIndex].items)) cmsCategories[currentCatIndex].items = [];
-            alert('Category Updated in Memory');
+            if (!silent) alert('Category Updated in Memory');
             renderCategories();
         }
         function createNewCategory() {
@@ -1080,7 +1093,7 @@
                 </label>
             `).join('');
         }
-        async function saveCurrentProduct() {
+        async function saveCurrentProduct(silent = false) {
             if(!currentProdId) return;
             const idx = cmsProducts.findIndex(x => x.id == currentProdId);
             if(idx === -1) { alert('Error: Product not found in memory.'); return; }
@@ -1150,7 +1163,7 @@
             const cbs = document.querySelectorAll('.related-cb:checked');
             p.related_ids = Array.from(cbs).map(cb => parseInt(cb.value));
 
-            alert('Product Updated in Memory');
+            if (!silent) alert('Product Updated in Memory');
             renderProducts();
             // Restore selection after re-render
             document.getElementById('edit-prod-category').value = p.category;
@@ -1249,7 +1262,7 @@
                 </label>
             `).join('');
         }
-        function saveCurrentBlog() {
+        function saveCurrentBlog(silent = false) {
             if(!currentBlogId) return;
             const idx = cmsBlogs.findIndex(x => x.id === currentBlogId);
             
@@ -1271,7 +1284,7 @@
             const cbs = document.querySelectorAll('.blog-related-cb:checked');
             cmsBlogs[idx].related_ids = Array.from(cbs).map(cb => parseInt(cb.value));
 
-            alert('Blog Updated in Memory');
+            if (!silent) alert('Blog Updated in Memory');
             renderBlogs();
         }
         function createNewBlog() {
@@ -1324,14 +1337,14 @@
             document.getElementById('edit-review-date').value = r.date || '';
             document.getElementById('edit-review-text').value = r.text;
         }
-        function saveCurrentReview() {
+        function saveCurrentReview(silent = false) {
             if(currentReviewIndex === null) return;
             cmsReviews[currentReviewIndex].productId = parseInt(document.getElementById('edit-review-product').value);
             cmsReviews[currentReviewIndex].user = document.getElementById('edit-review-user').value;
             cmsReviews[currentReviewIndex].rating = parseFloat(document.getElementById('edit-review-rating').value);
             cmsReviews[currentReviewIndex].date = document.getElementById('edit-review-date').value;
             cmsReviews[currentReviewIndex].text = document.getElementById('edit-review-text').value;
-            alert('Review Updated in Memory');
+            if (!silent) alert('Review Updated in Memory');
             renderReviews();
         }
         function createNewReview() {
@@ -1353,6 +1366,12 @@
         async function saveToDisk() {
             if(currentUserRole === 'admin') saveGeneral();
             
+            // Auto-save currently open editors
+            if(document.getElementById('product-editor') && !document.getElementById('product-editor').classList.contains('hidden')) await saveCurrentProduct(true);
+            if(document.getElementById('category-editor') && !document.getElementById('category-editor').classList.contains('hidden')) saveCurrentCategory(true);
+            if(document.getElementById('blog-editor') && !document.getElementById('blog-editor').classList.contains('hidden')) saveCurrentBlog(true);
+            if(document.getElementById('review-editor') && !document.getElementById('review-editor').classList.contains('hidden')) saveCurrentReview(true);
+
             const btn = document.getElementById('save-btn');
             const originalText = btn.innerHTML;
             btn.innerHTML = '<i data-lucide="loader-2" class="animate-spin"></i> Saving & Building...';

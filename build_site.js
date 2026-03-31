@@ -397,7 +397,15 @@ function renderStars(rating = 5, sizeClass = "w-4 h-4") {
 
 function getImageUrl(img, basePath = '/') {
     if (!img) return null;
-    if (img.startsWith('http') || img.startsWith('data:') || img.startsWith('/')) return img;
+    if (img.startsWith('http') || img.startsWith('data:')) return img;
+    
+    // Convert absolute paths to relative if basePath is provided
+    if (img.startsWith('/images/products/')) {
+        img = img.substring('/images/products/'.length);
+    } else if (img.startsWith('/')) {
+        return basePath === '/' ? img : basePath + img.substring(1);
+    }
+    
     return `${basePath}images/products/${img}`;
 }
 
@@ -817,7 +825,7 @@ function generateSidebar(products, blogs) {
     const popularBlogs = blogs.slice(0, 3).map(b => `
         <li class="flex gap-3 items-start">
              <div class="w-16 h-16 bg-slate-200 rounded-lg overflow-hidden shrink-0">
-                <img src="${b.image}" alt="${b.title}" class="w-full h-full object-cover opacity-90 hover:opacity-100 transition">
+                <img src="${getImageUrl(b.image, '../../')}" alt="${b.title}" class="w-full h-full object-cover opacity-90 hover:opacity-100 transition">
              </div>
              <div>
                  <a href="${getDynamicUrl('blog', b.slug, false)}" class="text-sm font-bold text-slate-900 hover:text-cyan-600 leading-tight block mb-1">${b.title}</a>
@@ -1019,7 +1027,7 @@ for (let i = 1; i <= totalPages; i++) {
     const blogGrid = pageBlogs.map((b, idx) => `
         <article class="group relative flex flex-col bg-white rounded-3xl border border-slate-200 overflow-hidden transition-all duration-500 hover:border-cyan-300 hover:shadow-md hover:-translate-y-2 h-full">
             <a href="${getDynamicUrl('blog', b.slug).replace(baseUrl, '/')}" class="h-64 overflow-hidden relative block">
-                <img src="${b.image || 'https://via.placeholder.com/600x400?text=No+Image'}" alt="${b.title}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" ${i === 1 && idx === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} width="600" height="400">
+                <img src="${getImageUrl(b.image, pageRelPath) || 'https://via.placeholder.com/600x400?text=No+Image'}" alt="${b.title}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" ${i === 1 && idx === 0 ? 'fetchpriority="high"' : 'loading="lazy"'} width="600" height="400">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-80"></div>
                 
                 <!-- Floating Date Badge -->
@@ -1162,7 +1170,7 @@ blogs.forEach((post, index) => {
                     </p>
                 </header>
 
-                ${post.image ? `<img src="${post.image}" alt="${post.title}" class="w-full rounded-2xl mb-10 shadow-md border border-slate-200" fetchpriority="high" width="1200" height="630">` : ''}
+                ${post.image ? `<img src="${getImageUrl(post.image, '../../')}" alt="${post.title}" class="w-full rounded-2xl mb-10 shadow-md border border-slate-200" fetchpriority="high" width="1200" height="630">` : ''}
 
                 <div class="prose lg:prose-xl max-w-none prose-headings:text-slate-900 prose-a:text-cyan-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900">
                     ${contentWithCta}

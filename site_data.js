@@ -13,7 +13,7 @@ var siteConfig = {
     "supportEmail": "",
     "analyticsId": "",
     "whatsapp": "+1 (678) 725-0845",
-    "telegram": "",
+    "telegram": "pva_marketplace",
     "themeColor": "#0B1120",
     "popupTitle": "",
     "popupMessage": "",
@@ -30,8 +30,7 @@ var categories = [
         "description": "Comprehensive Google services for business growth. From reviews to accounts, we cover everything.",
         "content": "\n            <h2 class=\"text-3xl font-bold text-white mb-6\">Boost Your Business with Verified Google Services</h2>\n            <p class=\"text-slate-300 mb-4 text-lg\">\n                In today's digital landscape, Google dominates search and discovery. Having a strong presence on Google is not just an option; it's a necessity. \n                Our **Google Services** category offers a wide range of solutions designed to enhance your visibility, credibility, and operational efficiency.\n            </p>\n            <p class=\"text-slate-300 mb-8 text-lg\">\n                Whether you need to improve your local SEO with **Google Reviews**, manage multiple campaigns with **Google Ads Accounts**, or secure your communications with **Google Voice**, we have you covered. \n                All our accounts and services are 100% verified, safe, and delivered instantly.\n            </p>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Why Invest in Google Services?</h3>\n            <ul class=\"list-none space-y-4 mb-8 text-slate-300\">\n                <li class=\"flex items-start gap-3\">\n                    <i data-lucide=\"check-circle\" class=\"w-6 h-6 text-cyan-400 shrink-0 mt-1\"></i>\n                    <div>\n                        <strong class=\"text-white block text-lg\">Enhanced Local SEO</strong>\n                        Google Reviews are a key ranking factor for local businesses. More positive reviews mean higher visibility in Google Maps and Search.\n                    </div>\n                </li>\n                <li class=\"flex items-start gap-3\">\n                    <i data-lucide=\"check-circle\" class=\"w-6 h-6 text-cyan-400 shrink-0 mt-1\"></i>\n                    <div>\n                        <strong class=\"text-white block text-lg\">Operational Scalability</strong>\n                        With verified Google Ads and Gmail accounts, you can scale your marketing campaigns without fear of bans or restrictions.\n                    </div>\n                </li>\n                <li class=\"flex items-start gap-3\">\n                    <i data-lucide=\"check-circle\" class=\"w-6 h-6 text-cyan-400 shrink-0 mt-1\"></i>\n                    <div>\n                        <strong class=\"text-white block text-lg\">Professional Communication</strong>\n                        Google Voice numbers allow you to maintain a professional business line separate from your personal phone.\n                    </div>\n                </li>\n            </ul>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Our Top Google Products</h3>\n            <div class=\"grid grid-cols-1 md:grid-cols-2 gap-6 mb-8\">\n                <div class=\"bg-[#1E293B] p-6 rounded-xl border border-white/5\">\n                    <h4 class=\"text-xl font-bold text-white mb-2\">Google Reviews</h4>\n                    <p class=\"text-slate-400 text-sm mb-4\">Non-drop, sticky reviews from real device profiles. Perfect for boosting GMB ranking.</p>\n                    <a href=\"/product/buy-google-reviews/\" class=\"text-cyan-400 font-bold text-sm hover:underline\">View Packages &rarr;</a>\n                </div>\n                <div class=\"bg-[#1E293B] p-6 rounded-xl border border-white/5\">\n                    <h4 class=\"text-xl font-bold text-white mb-2\">Google Ads Accounts</h4>\n                    <p class=\"text-slate-400 text-sm mb-4\">Aged, verified accounts ready to run campaigns. Bypass warming periods.</p>\n                    <a href=\"/product/buy-google-ads-accounts/\" class=\"text-cyan-400 font-bold text-sm hover:underline\">View Packages &rarr;</a>\n                </div>\n            </div>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Buyer's Guide: How to Choose?</h3>\n            <p class=\"text-slate-300 mb-4\">\n                When selecting a service, consider your immediate business goals. If you are a local business, prioritize **Google Maps Reviews**. \n                For digital marketers, **Old Gmail Accounts** and **Google Voice** are essential tools for outreach and account management.\n            </p>\n            <p class=\"text-slate-300\">\n                At **Realpvashop**, we ensure every product meets the highest standards of quality and security. Browse our selection below and take your Google presence to the next level.\n            </p>\n        ",
         "items": [
-            "New Product 4",
-            "New Product 2"
+            "Old Gmail Accounts"
         ]
     },
     {
@@ -39,9 +38,7 @@ var categories = [
         "slug": "facebook",
         "description": "Dominate social media with our premium Facebook accounts and reviews services.",
         "content": "\n            <h2 class=\"text-3xl font-bold text-white mb-6\">Master Social Media Marketing with Facebook Services</h2>\n            <p class=\"text-slate-300 mb-4 text-lg\">\n                Facebook remains the undisputed king of social media, with billions of active users. For businesses and marketers, it offers an unparalleled platform for advertising and community building. \n                However, navigating Facebook's strict policies can be challenging. That's where our **Facebook Services** come in.\n            </p>\n            <p class=\"text-slate-300 mb-8 text-lg\">\n                We provide high-quality, verified Facebook assets?from aged accounts for ad management to positive reviews for page credibility. \n                Secure your marketing infrastructure with **Realpvashop**.\n            </p>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Unlock the Power of Facebook Ads</h3>\n            <p class=\"text-slate-300 mb-6\">\n                One of the biggest hurdles for marketers is ad account bans. Our **Buy Facebook Ads Accounts** service offers you reinstated and aged accounts that are resilient and ready for high-spend campaigns. \n                Stop losing time on bans and start scaling your ROI.\n            </p>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Build Social Proof Instantly</h3>\n            <ul class=\"list-none space-y-4 mb-8 text-slate-300\">\n                <li class=\"flex items-start gap-3\">\n                    <i data-lucide=\"thumbs-up\" class=\"w-6 h-6 text-blue-500 shrink-0 mt-1\"></i>\n                    <div>\n                        <strong class=\"text-white block text-lg\">Facebook Page Reviews</strong>\n                        Positive recommendations on your business page build immediate trust with potential customers.\n                    </div>\n                </li>\n                <li class=\"flex items-start gap-3\">\n                    <i data-lucide=\"users\" class=\"w-6 h-6 text-blue-500 shrink-0 mt-1\"></i>\n                    <div>\n                        <strong class=\"text-white block text-lg\">Real User Accounts</strong>\n                        Use our verified profiles for social listening, group management, and organic outreach.\n                    </div>\n                </li>\n            </ul>\n\n            <div class=\"bg-gradient-to-r from-blue-900/50 to-slate-900 p-6 rounded-xl border border-blue-500/20 mb-8\">\n                <h4 class=\"text-lg font-bold text-white mb-2\">Did You Know?</h4>\n                <p class=\"text-slate-300 text-sm\">\n                    Aged Facebook accounts (with activity history) are 80% less likely to be flagged by security algorithms compared to fresh accounts. \n                    Invest in longevity with our **Aged Facebook Accounts**.\n                </p>\n            </div>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Safe & Secure Delivery</h3>\n            <p class=\"text-slate-300\">\n                We understand the importance of discretion. All credentials are delivered securely via email. \n                Our support team is available 24/7 to assist you with login and setup. Choose your package below.\n            </p>\n        ",
-        "items": [
-            "New Product 1"
-        ]
+        "items": []
     },
     {
         "name": "Accounts",
@@ -49,7 +46,16 @@ var categories = [
         "description": "Verified social media and developer accounts for Instagram, Twitter, Tinder, and GitHub.",
         "content": "\n            <h2 class=\"text-3xl font-bold text-white mb-6\">Premium Verified Accounts for Every Platform</h2>\n            <p class=\"text-slate-300 mb-4 text-lg\">\n                In the digital age, access is everything. Whether you're a developer needing a **GitHub** account, a marketer targeting **Instagram** and **Twitter**, or exploring niche platforms like **Tinder**, \n                having a verified, ready-to-use account saves you time and hassle.\n            </p>\n            <p class=\"text-slate-300 mb-8 text-lg\">\n                **Realpvashop** is your one-stop marketplace for high-quality PVA (Phone Verified Accounts). We take care of the verification process so you can focus on what matters?your business.\n            </p>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Why Buy Verified Accounts?</h3>\n            <div class=\"grid grid-cols-1 md:grid-cols-3 gap-6 mb-8\">\n                <div class=\"bg-[#1E293B] p-5 rounded-xl text-center\">\n                    <i data-lucide=\"shield-check\" class=\"w-10 h-10 text-green-400 mx-auto mb-3\"></i>\n                    <h4 class=\"font-bold text-white mb-2\">Instant Access</h4>\n                    <p class=\"text-slate-400 text-sm\">Skip the sign-up and verification delays. Get credentials instantly.</p>\n                </div>\n                <div class=\"bg-[#1E293B] p-5 rounded-xl text-center\">\n                    <i data-lucide=\"globe\" class=\"w-10 h-10 text-blue-400 mx-auto mb-3\"></i>\n                    <h4 class=\"font-bold text-white mb-2\">Global Reach</h4>\n                    <p class=\"text-slate-400 text-sm\">Accounts available from USA, UK, EU, and other top tier regions.</p>\n                </div>\n                <div class=\"bg-[#1E293B] p-5 rounded-xl text-center\">\n                    <i data-lucide=\"lock\" class=\"w-10 h-10 text-purple-400 mx-auto mb-3\"></i>\n                    <h4 class=\"font-bold text-white mb-2\">Ban Resistant</h4>\n                    <p class=\"text-slate-400 text-sm\">Created with unique IPs and device fingerprints for maximum safety.</p>\n                </div>\n            </div>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Popular Account Categories</h3>\n            <ul class=\"list-disc pl-5 space-y-3 mb-8 text-slate-300\">\n                <li><strong>Instagram Accounts:</strong> Perfect for influencer marketing and brand flipping.</li>\n                <li><strong>Twitter (X) Accounts:</strong> Essential for crypto projects and news dissemination.</li>\n                <li><strong>GitHub Accounts:</strong> Aged accounts for developers to host repositories with trust.</li>\n                <li><strong>Tinder Accounts:</strong> Verified profiles for dating app marketing.</li>\n            </ul>\n\n            <p class=\"text-slate-300\">\n                Don't let verification hurdles slow you down. Browse our diverse catalog of verified accounts below and get started today.\n            </p>\n        ",
         "items": [
-            "New Product 3"
+            "Verified Cash App Accounts",
+            "Verified Binance Account",
+            "GitHub Account",
+            "Perfect Money Account ",
+            "Verified FTX Account ",
+            "Verified WebMoney Account",
+            "Verified Payeer Accounts",
+            "Verified Paxful Accounts",
+            "Verified Payoneer Account ",
+            "Verified Neteller Accounts"
         ]
     }
 ];
@@ -100,16 +106,16 @@ var landingPageData = {
 // All 41 Products Data
 var products = [
     {
-        "id": 4,
+        "id": 11,
         "active": true,
-        "title": "New Product 4",
-        "display_title": "",
-        "slug": "new-product-4",
-        "category": "Google",
+        "title": "Buy Verified Neteller Accounts",
+        "display_title": "Verified Neteller Accounts",
+        "slug": "buy-verified-neteller-accounts",
+        "category": "Accounts",
         "image": "",
-        "image_title": "New Product ",
-        "min_price": 9.99,
-        "max_price": 19.99,
+        "image_title": "Buy Verified Neteller Accounts",
+        "min_price": 130,
+        "max_price": 580,
         "badge_color": "blue",
         "is_sale": true,
         "short_description": "Short description here.",
@@ -119,8 +125,206 @@ var products = [
             "Feature 2"
         ],
         "pricing": [
-            "$10 - Option 1",
-            "$20 - Option 2"
+            "01 Old Verified Neteller Accounts Only $300",
+            "01 Verified Neteller Accounts Only $120",
+            "02 Old Verified Neteller Accounts Only $580",
+            "02 Verified Neteller Accounts Only $250"
+        ],
+        "long_description": "<p>Detailed description...</p>",
+        "related_ids": []
+    },
+    {
+        "id": 10,
+        "active": true,
+        "title": "Buy Verified Payoneer Account ",
+        "display_title": "Verified Payoneer Account ",
+        "slug": "buy-verified-payoneer-account",
+        "category": "Accounts",
+        "image": "",
+        "image_title": "Buy Verified Payoneer Account ",
+        "min_price": 100,
+        "max_price": 350,
+        "badge_color": "blue",
+        "is_sale": true,
+        "short_description": "Short description here.",
+        "meta_description": "",
+        "features": [
+            "Feature 1",
+            "Feature 2"
+        ],
+        "pricing": [
+            "1 Account Starter $100",
+            "5 Accounts Pack $175",
+            "10 Accounts Bulk $250",
+            "20 Accounts Pro $350"
+        ],
+        "long_description": "<p>Detailed description...</p>",
+        "related_ids": []
+    },
+    {
+        "id": 9,
+        "active": true,
+        "title": "Buy Verified Paxful Accounts",
+        "display_title": "Verified Paxful Accounts",
+        "slug": "buy-verified-paxful-accounts",
+        "category": "Accounts",
+        "image": "",
+        "image_title": "Buy Verified Paxful Accounts",
+        "min_price": 70,
+        "max_price": 200,
+        "badge_color": "blue",
+        "is_sale": true,
+        "short_description": "Short description here.",
+        "meta_description": "",
+        "features": [
+            "Feature 1",
+            "Feature 2"
+        ],
+        "pricing": [
+            "1 Account Starter $70",
+            "5 Accounts Pack $109",
+            "10 Accounts Bulk $148",
+            "20 Accounts Pro $200"
+        ],
+        "long_description": "<p>Detailed description...</p>",
+        "related_ids": []
+    },
+    {
+        "id": 8,
+        "active": true,
+        "title": "Buy Verified Payeer Accounts",
+        "display_title": "Verified Payeer Accounts",
+        "slug": "buy-verified-payeer-accounts",
+        "category": "Accounts",
+        "image": "",
+        "image_title": "Buy Verified Payeer Accounts",
+        "min_price": 40,
+        "max_price": 150,
+        "badge_color": "blue",
+        "is_sale": true,
+        "short_description": "Short description here.",
+        "meta_description": "",
+        "features": [
+            "Feature 1",
+            "Feature 2"
+        ],
+        "pricing": [
+            "1 Account Starter $40",
+            "5 Accounts Pack $73",
+            "10 Accounts Bulk $106",
+            "20 Accounts Pro $150"
+        ],
+        "long_description": "<p>Detailed description...</p>",
+        "related_ids": []
+    },
+    {
+        "id": 7,
+        "active": true,
+        "title": "Buy Verified WebMoney Account",
+        "display_title": "Verified WebMoney Account",
+        "slug": "buy-verified-webmoney-account",
+        "category": "Accounts",
+        "image": "",
+        "image_title": "Buy Verified WebMoney Account",
+        "min_price": 149,
+        "max_price": 1200,
+        "badge_color": "blue",
+        "is_sale": true,
+        "short_description": "Short description here.",
+        "meta_description": "",
+        "features": [
+            "Feature 1",
+            "Feature 2"
+        ],
+        "pricing": [
+            "01 Business Webmoney Accounts-With Documents Only $600",
+            "01 Personal Webmoney Accounts-With Documents Only $149",
+            "02 Business Webmoney Accounts-With Documents Only $1200",
+            "02 Personal Webmoney Accounts-With Documents Only $298"
+        ],
+        "long_description": "<p>Detailed description...</p>",
+        "related_ids": []
+    },
+    {
+        "id": 6,
+        "active": true,
+        "title": "Buy Verified FTX Account ",
+        "display_title": "Verified FTX Account ",
+        "slug": "buy-verified-ftx-account",
+        "category": "Accounts",
+        "image": "",
+        "image_title": "Buy Verified FTX Account ",
+        "min_price": 100,
+        "max_price": 250,
+        "badge_color": "gray",
+        "is_sale": true,
+        "short_description": "Short description here.",
+        "meta_description": "",
+        "features": [
+            "Feature 1",
+            "Feature 2"
+        ],
+        "pricing": [
+            "1 Account Starter $100",
+            "5 Accounts Pack $145",
+            "10 Accounts Bulk $190",
+            "20 Accounts Pro $250"
+        ],
+        "long_description": "<p>Detailed description...</p>",
+        "related_ids": []
+    },
+    {
+        "id": 5,
+        "active": true,
+        "title": "Buy Verified Perfect Money Account ",
+        "display_title": "Perfect Money Account ",
+        "slug": "buy-verified-perfect-money-account",
+        "category": "Accounts",
+        "image": "",
+        "image_title": "Buy Verified Perfect Money Account ",
+        "min_price": 50,
+        "max_price": 120,
+        "badge_color": "blue",
+        "is_sale": true,
+        "short_description": "Short description here.",
+        "meta_description": "",
+        "features": [
+            "Feature 1",
+            "Feature 2"
+        ],
+        "pricing": [
+            "1 Account Starter $50",
+            "5 Accounts Pack $71",
+            "10 Accounts Bulk $92",
+            "20 Accounts Pro $120"
+        ],
+        "long_description": "<p>Detailed description...</p>",
+        "related_ids": []
+    },
+    {
+        "id": 4,
+        "active": true,
+        "title": "Buy Verified Cash App Accounts",
+        "display_title": "Verified Cash App Accounts",
+        "slug": "verified-cash-app-accounts",
+        "category": "Accounts",
+        "image": "",
+        "image_title": "Buy Verified Cash App Accounts",
+        "min_price": 100,
+        "max_price": 400,
+        "badge_color": "solar",
+        "is_sale": true,
+        "short_description": "Short description here.",
+        "meta_description": "",
+        "features": [
+            "Feature 1",
+            "Feature 2"
+        ],
+        "pricing": [
+            "1 Account Starter $100",
+            "5 Accounts Pack $190",
+            "10 Accounts Bulk $280",
+            "20 Accounts Pro $400"
         ],
         "long_description": "<p>Detailed description...</p>",
         "related_ids": []
@@ -128,15 +332,15 @@ var products = [
     {
         "id": 3,
         "active": true,
-        "title": "New Product 3",
-        "display_title": "",
-        "slug": "new-product-3",
+        "title": "Buy Verified Binance Account",
+        "display_title": "Verified Binance Account",
+        "slug": "buy-verified-binance-account",
         "category": "Accounts",
         "image": "",
-        "image_title": "New Product ",
-        "min_price": 9.99,
-        "max_price": 19.99,
-        "badge_color": "blue",
+        "image_title": "Buy Verified Binance Account",
+        "min_price": 290,
+        "max_price": 830,
+        "badge_color": "pink",
         "is_sale": true,
         "short_description": "Short description here.",
         "meta_description": "",
@@ -145,8 +349,9 @@ var products = [
             "Feature 2"
         ],
         "pricing": [
-            "$10 - Option 1",
-            "$20 - Option 2"
+            "01 Verified Binance Accounts Only $290",
+            "02 Verified Binance Accounts Only $560",
+            "03 Verified Binance Accounts Only $830"
         ],
         "long_description": "<p>Detailed description...</p>",
         "related_ids": []
@@ -154,14 +359,14 @@ var products = [
     {
         "id": 2,
         "active": true,
-        "title": "New Product 1",
-        "display_title": "",
-        "slug": "new-product-1",
-        "category": "Facebook",
+        "title": "Buy GitHub Account",
+        "display_title": "GitHub Account",
+        "slug": "buy-github-account",
+        "category": "Accounts",
         "image": "",
-        "image_title": "New Product ",
-        "min_price": 9.99,
-        "max_price": 19.99,
+        "image_title": "Buy GitHub Account",
+        "min_price": 12,
+        "max_price": 1200,
         "badge_color": "blue",
         "is_sale": true,
         "short_description": "Short description here.",
@@ -171,8 +376,13 @@ var products = [
             "Feature 2"
         ],
         "pricing": [
-            "$10 - Option 1",
-            "$20 - Option 2"
+            "01 New GitHub Accounts only $12",
+            "01 Old GitHub Accounts only $40",
+            "05 Old GitHub Accounts only $200",
+            "10 New GitHub Accounts only $120",
+            "10 Old GitHub Accounts only $400",
+            "100 New GitHub Accounts only $1200",
+            "50 New GitHub Accounts only $600"
         ],
         "long_description": "<p>Detailed description...</p>",
         "related_ids": []
@@ -180,14 +390,14 @@ var products = [
     {
         "id": 1,
         "active": true,
-        "title": "New Product 2",
-        "display_title": "",
-        "slug": "new-product-2",
+        "title": "Buy Old Gmail Accounts",
+        "display_title": "Old Gmail Accounts",
+        "slug": "buy-old-gmail-accounts",
         "category": "Google",
         "image": "",
-        "image_title": "New Product ",
-        "min_price": 9.99,
-        "max_price": 19.99,
+        "image_title": "Buy Old Gmail Accounts",
+        "min_price": 18,
+        "max_price": 1450,
         "badge_color": "blue",
         "is_sale": true,
         "short_description": "Short description here.",
@@ -197,8 +407,13 @@ var products = [
             "Feature 2"
         ],
         "pricing": [
-            "$10 - Option 1",
-            "$20 - Option 2"
+            "05 Old Gmail Accounts only $18",
+            "10 Old Gmail Accounts Only $35",
+            "100 Old Gmail Accounts Only $310",
+            "30 Old Gmail Accounts Only $100",
+            "300 Old Gmail Accounts Only $900",
+            "50 Old Gmail Accounts Only $160",
+            "500 Old Gmail Accounts Only $1450"
         ],
         "long_description": "<p>Detailed description...</p>",
         "related_ids": []

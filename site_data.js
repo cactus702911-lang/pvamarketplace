@@ -63,6 +63,26 @@ var categories = [
 // Sample Reviews Data
 var reviewsData = [
     {
+        "productId": 11,
+        "user": "New User",
+        "rating": 5,
+        "date": "Mar 31, 2026",
+        "text": "Great!"
+    },
+    {
+        "productId": 11,
+        "user": "Test",
+        "rating": 5,
+        "text": "Test"
+    },
+    {
+        "productId": 11,
+        "user": "sohel",
+        "rating": 5,
+        "date": "Mar 31, 2026",
+        "text": "Great!"
+    },
+    {
         "name": "Sarah Jenkins",
         "role": "Digital Marketer",
         "text": "The Google Ads accounts I purchased were top quality. Saved me weeks of warming up.",

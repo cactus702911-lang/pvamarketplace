@@ -29,7 +29,9 @@ var categories = [
         "slug": "google",
         "description": "Comprehensive Google services for business growth. From reviews to accounts, we cover everything.",
         "content": "\n            <h2 class=\"text-3xl font-bold text-white mb-6\">Boost Your Business with Verified Google Services</h2>\n            <p class=\"text-slate-300 mb-4 text-lg\">\n                In today's digital landscape, Google dominates search and discovery. Having a strong presence on Google is not just an option; it's a necessity. \n                Our **Google Services** category offers a wide range of solutions designed to enhance your visibility, credibility, and operational efficiency.\n            </p>\n            <p class=\"text-slate-300 mb-8 text-lg\">\n                Whether you need to improve your local SEO with **Google Reviews**, manage multiple campaigns with **Google Ads Accounts**, or secure your communications with **Google Voice**, we have you covered. \n                All our accounts and services are 100% verified, safe, and delivered instantly.\n            </p>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Why Invest in Google Services?</h3>\n            <ul class=\"list-none space-y-4 mb-8 text-slate-300\">\n                <li class=\"flex items-start gap-3\">\n                    <i data-lucide=\"check-circle\" class=\"w-6 h-6 text-cyan-400 shrink-0 mt-1\"></i>\n                    <div>\n                        <strong class=\"text-white block text-lg\">Enhanced Local SEO</strong>\n                        Google Reviews are a key ranking factor for local businesses. More positive reviews mean higher visibility in Google Maps and Search.\n                    </div>\n                </li>\n                <li class=\"flex items-start gap-3\">\n                    <i data-lucide=\"check-circle\" class=\"w-6 h-6 text-cyan-400 shrink-0 mt-1\"></i>\n                    <div>\n                        <strong class=\"text-white block text-lg\">Operational Scalability</strong>\n                        With verified Google Ads and Gmail accounts, you can scale your marketing campaigns without fear of bans or restrictions.\n                    </div>\n                </li>\n                <li class=\"flex items-start gap-3\">\n                    <i data-lucide=\"check-circle\" class=\"w-6 h-6 text-cyan-400 shrink-0 mt-1\"></i>\n                    <div>\n                        <strong class=\"text-white block text-lg\">Professional Communication</strong>\n                        Google Voice numbers allow you to maintain a professional business line separate from your personal phone.\n                    </div>\n                </li>\n            </ul>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Our Top Google Products</h3>\n            <div class=\"grid grid-cols-1 md:grid-cols-2 gap-6 mb-8\">\n                <div class=\"bg-[#1E293B] p-6 rounded-xl border border-white/5\">\n                    <h4 class=\"text-xl font-bold text-white mb-2\">Google Reviews</h4>\n                    <p class=\"text-slate-400 text-sm mb-4\">Non-drop, sticky reviews from real device profiles. Perfect for boosting GMB ranking.</p>\n                    <a href=\"/product/buy-google-reviews/\" class=\"text-cyan-400 font-bold text-sm hover:underline\">View Packages &rarr;</a>\n                </div>\n                <div class=\"bg-[#1E293B] p-6 rounded-xl border border-white/5\">\n                    <h4 class=\"text-xl font-bold text-white mb-2\">Google Ads Accounts</h4>\n                    <p class=\"text-slate-400 text-sm mb-4\">Aged, verified accounts ready to run campaigns. Bypass warming periods.</p>\n                    <a href=\"/product/buy-google-ads-accounts/\" class=\"text-cyan-400 font-bold text-sm hover:underline\">View Packages &rarr;</a>\n                </div>\n            </div>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Buyer's Guide: How to Choose?</h3>\n            <p class=\"text-slate-300 mb-4\">\n                When selecting a service, consider your immediate business goals. If you are a local business, prioritize **Google Maps Reviews**. \n                For digital marketers, **Old Gmail Accounts** and **Google Voice** are essential tools for outreach and account management.\n            </p>\n            <p class=\"text-slate-300\">\n                At **Realpvashop**, we ensure every product meets the highest standards of quality and security. Browse our selection below and take your Google presence to the next level.\n            </p>\n        ",
-        "items": []
+        "items": [
+            "Old Gmail Accounts"
+        ]
     },
     {
         "name": "Facebook",
@@ -46,14 +48,14 @@ var categories = [
         "items": [
             "Verified Cash App Accounts",
             "Verified Binance Account",
-            "GitHub Account",
             "Perfect Money Account ",
             "Verified FTX Account ",
             "Verified WebMoney Account",
             "Verified Payeer Accounts",
             "Verified Paxful Accounts",
             "Verified Payoneer Account ",
-            "Verified Neteller Accounts"
+            "Verified Neteller Accounts",
+            "GitHub Accounts – Aged & Verified Developer Profiles for Instant Repository Access"
         ]
     }
 ];
@@ -124,9 +126,35 @@ var landingPageData = {
 // All 41 Products Data
 var products = [
     {
+        "id": 13,
+        "active": true,
+        "title": "GitHub Accounts – Aged & Verified Developer Profiles for Instant Repository Access",
+        "display_title": "",
+        "slug": "github-accounts-aged-verified-developer-profiles-for-instant-repository-access",
+        "category": "Accounts",
+        "image": "",
+        "image_title": "Buy GitHub accounts with aged verified developer profiles for repository management – PVAMarketplace",
+        "min_price": 12,
+        "max_price": 1200,
+        "badge_color": "blue",
+        "is_sale": true,
+        "short_description": "Want to buy GitHub accounts with aged verified access and instant delivery? Our pre-configured developer profiles are ready for repository testing, open-source workflow management & CI/CD pipeline integration.",
+        "meta_description": "Looking to buy GitHub accounts with verified developer access? PVAMarketplace offers aged, pre-configured profiles ideal for repository management, open-source contribution testing & dev workflow setup. Instant delivery guaranteed.",
+        "features": [
+            "Feature 1",
+            "Feature 2"
+        ],
+        "pricing": [
+            "$12 - Option 1",
+            "$1200 - Option 2"
+        ],
+        "long_description": "<h2>Aged GitHub Developer Profiles – Verified Account Access for Dev Teams &amp; Workflow Testing</h2><p>Spending too much time creating and verifying fresh <strong>GitHub accounts</strong> for every new project or testing environment? PVAMarketplace delivers fully aged, pre-configured <strong>GitHub developer profiles</strong> straight to your inbox — so your team can focus on building, not on account setup.</p><p>Our <strong>GitHub accounts</strong> come with established profile history, making them ideal for developers, QA engineers, and DevOps teams who need trusted repository access, contribution history simulation, and seamless CI/CD pipeline integration from day one.</p><h2>What Sets Our GitHub Account Packages Apart?</h2><p>FeatureDetails✅ Aged Profile HistoryAccounts with genuine activity history — not freshly registered✅ Repository ReadyInstantly usable for repo creation, cloning &amp; contribution testing✅ CI/CD CompatibleSuitable for GitHub Actions, pipeline testing &amp; automation workflows✅ Secure Credential DeliveryLogin details privately delivered to your email after payment✅ Developer Workflow TestedPre-configured for seamless integration into dev environments✅ Instant Swap GuaranteeNon-functional accounts replaced immediately at zero extra cost</p><h4>Who Gets the Most Value From These Accounts?</h4><ul><li><strong>Software Developers</strong> – Maintain separate <strong>GitHub</strong> identities for personal, freelance &amp; enterprise projects</li><li><strong>QA Engineers</strong> – Simulate contributor behavior and validate pull request workflows on <strong>GitHub</strong></li><li><strong>DevOps Teams</strong> – Integrate aged <strong>GitHub accounts</strong> into CI/CD pipelines and automation frameworks</li><li><strong>Open Source Contributors</strong> – Test contribution workflows across multiple <strong>GitHub</strong> profiles simultaneously</li><li><strong>Dev Agencies</strong> – Manage client repositories and project environments from dedicated <strong>GitHub</strong> profiles</li><li><strong>Security Researchers</strong> – Conduct controlled penetration testing simulations within isolated <strong>GitHub</strong> environments</li></ul><h4>Why Aged GitHub Accounts Outperform Fresh Registrations</h4><p>Newly created <strong>GitHub accounts</strong> come with limitations that slow down professional workflows. Here's why our aged profiles make a measurable difference:</p><ul><li><strong>Established Trust Score</strong> — Older <strong>GitHub</strong> profiles face fewer API rate limits and platform restrictions</li><li><strong>Contribution History</strong> — Aged accounts simulate realistic developer activity for accurate QA testing</li><li><strong>Reduced Friction</strong> — Pre-verified <strong>GitHub</strong> profiles bypass new account warm-up periods entirely</li><li><strong>Pipeline Compatibility</strong> — Established accounts integrate more smoothly into GitHub Actions &amp; CI/CD tools</li><li><strong>Collaboration Ready</strong> — Aged <strong>GitHub</strong> profiles are accepted into organization repositories faster</li><li><strong>Consistent Uptime</strong> — Verified accounts maintain stable access without sudden suspension risk</li></ul><h4>Package Tiers – Find Your Fit</h4><p>Choose the <strong>GitHub account</strong> package that matches your team size and workflow requirements:</p><ul><li><strong>Solo Dev Pack</strong> – Single aged <strong>GitHub</strong> profile for individual developers or freelancers</li><li><strong>Team Bundle</strong> – A mid-sized batch of verified <strong>GitHub accounts</strong> for small development teams</li><li><strong>Agency Pack</strong> – High-volume aged <strong>GitHub</strong> profiles for agencies managing multiple client projects</li><li><strong>Enterprise Bulk</strong> – Large-scale <strong>GitHub account</strong> batches for DevOps teams &amp; enterprise operations</li></ul><p>Use the option selector above to compare pricing across all available package tiers.</p><h4>Delivery &amp; Swap Policy</h4><p>🚀 <strong>Instant Delivery</strong> — Your <strong>GitHub account</strong> credentials land in your inbox within hours of payment confirmation. Full login details, recovery information and access instructions included — no follow-up required.</p><p>🔄 <strong>Instant Swap Guarantee</strong> — If any <strong>GitHub</strong> profile fails to function as described on first login, we replace it immediately — no forms, no delays, no additional charges.</p><h4>Frequently Asked Questions</h4><p><strong>❓ Do these GitHub accounts need any additional setup after delivery?</strong> No. Every <strong>GitHub</strong> profile we deliver is pre-verified and fully configured — log in with the provided credentials and start using immediately.</p><p><strong>❓ Are these GitHub accounts phone verified?</strong> Yes. All accounts in our inventory are phone-verified before delivery, ensuring higher platform acceptance and smoother access from day one.</p><p><strong>❓ Can I use these accounts for GitHub Actions and CI/CD pipelines?</strong> Yes. Our aged <strong>GitHub</strong> profiles are compatible with GitHub Actions, third-party CI/CD tools and automation frameworks right out of the box.</p><p><strong>❓ What happens if my GitHub account gets restricted?</strong> Our swap guarantee covers access failures at first login. For long-term stability, we recommend operating <strong>GitHub</strong> accounts within normal platform usage patterns and API guidelines.</p><p><strong>❓ Can I request specific account configurations?</strong> Yes. Custom configuration requests — such as specific profile details or contribution history preferences — can be submitted via our support team on WhatsApp or Telegram before processing.</p><p><strong>❓ Is bulk ordering available?</strong> Absolutely. We handle bulk <strong>GitHub account</strong> orders regularly. Reach out via WhatsApp or Telegram for volume pricing, custom delivery schedules and dedicated account management support.</p><p><strong>❓ How do I reach support after receiving my GitHub accounts?</strong> Our team is available 24/7 via WhatsApp, Telegram, and Email — ready to assist with any <strong>GitHub account</strong> queries, access issues or custom requests whenever you need us.</p>",
+        "related_ids": []
+    },
+    {
         "id": 12,
         "active": true,
-        "title": "Old Gmail Accounts – Established Google Profiles Ready for Immediate Business Use",
+        "title": "Buy Old Gmail Accounts",
         "display_title": "Old Gmail Accounts",
         "slug": "old-gmail-accounts-established-google-profiles-ready-for-immediate-business-use",
         "category": "Google",
@@ -396,37 +424,6 @@ var products = [
             "01 Verified Binance Accounts Only $290",
             "02 Verified Binance Accounts Only $560",
             "03 Verified Binance Accounts Only $830"
-        ],
-        "long_description": "<p>Detailed description...</p>",
-        "related_ids": []
-    },
-    {
-        "id": 2,
-        "active": true,
-        "title": "Buy GitHub Account",
-        "display_title": "GitHub Account",
-        "slug": "buy-github-account",
-        "category": "Accounts",
-        "image": "",
-        "image_title": "Buy GitHub Account",
-        "min_price": 12,
-        "max_price": 1200,
-        "badge_color": "blue",
-        "is_sale": true,
-        "short_description": "Short description here.",
-        "meta_description": "",
-        "features": [
-            "Feature 1",
-            "Feature 2"
-        ],
-        "pricing": [
-            "01 New GitHub Accounts only $12",
-            "01 Old GitHub Accounts only $40",
-            "05 Old GitHub Accounts only $200",
-            "10 New GitHub Accounts only $120",
-            "10 Old GitHub Accounts only $400",
-            "100 New GitHub Accounts only $1200",
-            "50 New GitHub Accounts only $600"
         ],
         "long_description": "<p>Detailed description...</p>",
         "related_ids": []

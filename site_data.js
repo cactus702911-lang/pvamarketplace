@@ -46,16 +46,10 @@ var categories = [
         "description": "Verified social media and developer accounts for Instagram, Twitter, Tinder, and GitHub.",
         "content": "\n            <h2 class=\"text-3xl font-bold text-white mb-6\">Premium Verified Accounts for Every Platform</h2>\n            <p class=\"text-slate-300 mb-4 text-lg\">\n                In the digital age, access is everything. Whether you're a developer needing a **GitHub** account, a marketer targeting **Instagram** and **Twitter**, or exploring niche platforms like **Tinder**, \n                having a verified, ready-to-use account saves you time and hassle.\n            </p>\n            <p class=\"text-slate-300 mb-8 text-lg\">\n                **Realpvashop** is your one-stop marketplace for high-quality PVA (Phone Verified Accounts). We take care of the verification process so you can focus on what matters?your business.\n            </p>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Why Buy Verified Accounts?</h3>\n            <div class=\"grid grid-cols-1 md:grid-cols-3 gap-6 mb-8\">\n                <div class=\"bg-[#1E293B] p-5 rounded-xl text-center\">\n                    <i data-lucide=\"shield-check\" class=\"w-10 h-10 text-green-400 mx-auto mb-3\"></i>\n                    <h4 class=\"font-bold text-white mb-2\">Instant Access</h4>\n                    <p class=\"text-slate-400 text-sm\">Skip the sign-up and verification delays. Get credentials instantly.</p>\n                </div>\n                <div class=\"bg-[#1E293B] p-5 rounded-xl text-center\">\n                    <i data-lucide=\"globe\" class=\"w-10 h-10 text-blue-400 mx-auto mb-3\"></i>\n                    <h4 class=\"font-bold text-white mb-2\">Global Reach</h4>\n                    <p class=\"text-slate-400 text-sm\">Accounts available from USA, UK, EU, and other top tier regions.</p>\n                </div>\n                <div class=\"bg-[#1E293B] p-5 rounded-xl text-center\">\n                    <i data-lucide=\"lock\" class=\"w-10 h-10 text-purple-400 mx-auto mb-3\"></i>\n                    <h4 class=\"font-bold text-white mb-2\">Ban Resistant</h4>\n                    <p class=\"text-slate-400 text-sm\">Created with unique IPs and device fingerprints for maximum safety.</p>\n                </div>\n            </div>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Popular Account Categories</h3>\n            <ul class=\"list-disc pl-5 space-y-3 mb-8 text-slate-300\">\n                <li><strong>Instagram Accounts:</strong> Perfect for influencer marketing and brand flipping.</li>\n                <li><strong>Twitter (X) Accounts:</strong> Essential for crypto projects and news dissemination.</li>\n                <li><strong>GitHub Accounts:</strong> Aged accounts for developers to host repositories with trust.</li>\n                <li><strong>Tinder Accounts:</strong> Verified profiles for dating app marketing.</li>\n            </ul>\n\n            <p class=\"text-slate-300\">\n                Don't let verification hurdles slow you down. Browse our diverse catalog of verified accounts below and get started today.\n            </p>\n        ",
         "items": [
-            "Verified Cash App Accounts",
-            "Perfect Money Account ",
-            "Verified FTX Account ",
-            "Verified WebMoney Account",
-            "Verified Payeer Accounts",
-            "Verified Paxful Accounts",
-            "Verified Payoneer Account ",
-            "Verified Neteller Accounts",
+            "Verified Binance Accounts",
             "GitHub Accounts",
-            "Verified Binance Accounts"
+            "Verified Cash App Accounts",
+            "Verified FTX Account "
         ]
     }
 ];
@@ -132,7 +126,7 @@ var products = [
         "display_title": "Verified Binance Accounts",
         "slug": "verified-binance-accounts--kyc-approved-crypto-trading-profiles-for-instant-market-access",
         "category": "Accounts",
-        "image": "",
+        "image": "/images/products/BUY BINANCE ACCOUTNS.png",
         "image_title": "Buy verified Binance accounts with KYC-approved crypto trading profiles – PVAMarketplace",
         "min_price": 290,
         "max_price": 850,
@@ -158,7 +152,7 @@ var products = [
         "display_title": "GitHub Accounts",
         "slug": "github-accounts-aged-verified-developer-profiles-for-instant-repository-access",
         "category": "Accounts",
-        "image": "",
+        "image": "/images/products/BUY GITHUB ACCOUTNS.png",
         "image_title": "Buy GitHub accounts with aged verified developer profiles for repository management – PVAMarketplace",
         "min_price": 12,
         "max_price": 1200,
@@ -184,7 +178,7 @@ var products = [
         "display_title": "Old Gmail Accounts",
         "slug": "old-gmail-accounts-established-google-profiles-ready-for-immediate-business-use",
         "category": "Google",
-        "image": "",
+        "image": "/images/products/BUY OLD GMAIL ACCOUTNS.png",
         "image_title": "Buy old Gmail accounts with established Google profile history – PVAMarketplace",
         "min_price": 18,
         "max_price": 1449.94,
@@ -204,153 +198,13 @@ var products = [
         "related_ids": []
     },
     {
-        "id": 11,
-        "active": true,
-        "title": "Buy Verified Neteller Accounts",
-        "display_title": "Verified Neteller Accounts",
-        "slug": "buy-verified-neteller-accounts",
-        "category": "Accounts",
-        "image": "",
-        "image_title": "Buy Verified Neteller Accounts",
-        "min_price": 130,
-        "max_price": 580,
-        "badge_color": "blue",
-        "is_sale": true,
-        "short_description": "Short description here.",
-        "meta_description": "",
-        "features": [
-            "Feature 1",
-            "Feature 2"
-        ],
-        "pricing": [
-            "01 Old Verified Neteller Accounts Only $300",
-            "01 Verified Neteller Accounts Only $120",
-            "02 Old Verified Neteller Accounts Only $580",
-            "02 Verified Neteller Accounts Only $250"
-        ],
-        "long_description": "<p>Detailed description...</p>",
-        "related_ids": []
-    },
-    {
-        "id": 10,
-        "active": true,
-        "title": "Buy Verified Payoneer Account ",
-        "display_title": "Verified Payoneer Account ",
-        "slug": "buy-verified-payoneer-account",
-        "category": "Accounts",
-        "image": "",
-        "image_title": "Buy Verified Payoneer Account ",
-        "min_price": 100,
-        "max_price": 350,
-        "badge_color": "blue",
-        "is_sale": true,
-        "short_description": "Short description here.",
-        "meta_description": "",
-        "features": [
-            "Feature 1",
-            "Feature 2"
-        ],
-        "pricing": [
-            "1 Account Starter $100",
-            "5 Accounts Pack $175",
-            "10 Accounts Bulk $250",
-            "20 Accounts Pro $350"
-        ],
-        "long_description": "<p>Detailed description...</p>",
-        "related_ids": []
-    },
-    {
-        "id": 9,
-        "active": true,
-        "title": "Buy Verified Paxful Accounts",
-        "display_title": "Verified Paxful Accounts",
-        "slug": "buy-verified-paxful-accounts",
-        "category": "Accounts",
-        "image": "",
-        "image_title": "Buy Verified Paxful Accounts",
-        "min_price": 70,
-        "max_price": 200,
-        "badge_color": "blue",
-        "is_sale": true,
-        "short_description": "Short description here.",
-        "meta_description": "",
-        "features": [
-            "Feature 1",
-            "Feature 2"
-        ],
-        "pricing": [
-            "1 Account Starter $70",
-            "5 Accounts Pack $109",
-            "10 Accounts Bulk $148",
-            "20 Accounts Pro $200"
-        ],
-        "long_description": "<p>Detailed description...</p>",
-        "related_ids": []
-    },
-    {
-        "id": 8,
-        "active": true,
-        "title": "Buy Verified Payeer Accounts",
-        "display_title": "Verified Payeer Accounts",
-        "slug": "buy-verified-payeer-accounts",
-        "category": "Accounts",
-        "image": "",
-        "image_title": "Buy Verified Payeer Accounts",
-        "min_price": 40,
-        "max_price": 150,
-        "badge_color": "blue",
-        "is_sale": true,
-        "short_description": "Short description here.",
-        "meta_description": "",
-        "features": [
-            "Feature 1",
-            "Feature 2"
-        ],
-        "pricing": [
-            "1 Account Starter $40",
-            "5 Accounts Pack $73",
-            "10 Accounts Bulk $106",
-            "20 Accounts Pro $150"
-        ],
-        "long_description": "<p>Detailed description...</p>",
-        "related_ids": []
-    },
-    {
-        "id": 7,
-        "active": true,
-        "title": "Buy Verified WebMoney Account",
-        "display_title": "Verified WebMoney Account",
-        "slug": "buy-verified-webmoney-account",
-        "category": "Accounts",
-        "image": "",
-        "image_title": "Buy Verified WebMoney Account",
-        "min_price": 149,
-        "max_price": 1200,
-        "badge_color": "blue",
-        "is_sale": true,
-        "short_description": "Short description here.",
-        "meta_description": "",
-        "features": [
-            "Feature 1",
-            "Feature 2"
-        ],
-        "pricing": [
-            "01 Business Webmoney Accounts-With Documents Only $600",
-            "01 Personal Webmoney Accounts-With Documents Only $149",
-            "02 Business Webmoney Accounts-With Documents Only $1200",
-            "02 Personal Webmoney Accounts-With Documents Only $298"
-        ],
-        "long_description": "<p>Detailed description...</p>",
-        "related_ids": []
-    },
-    {
         "id": 6,
         "active": true,
         "title": "Buy Verified FTX Account ",
         "display_title": "Verified FTX Account ",
         "slug": "buy-verified-ftx-account",
         "category": "Accounts",
-        "image": "",
+        "image": "/images/products/BUY FTX ACCOUTNS.png",
         "image_title": "Buy Verified FTX Account ",
         "min_price": 100,
         "max_price": 250,
@@ -372,45 +226,17 @@ var products = [
         "related_ids": []
     },
     {
-        "id": 5,
-        "active": true,
-        "title": "Buy Verified Perfect Money Account ",
-        "display_title": "Perfect Money Account ",
-        "slug": "buy-verified-perfect-money-account",
-        "category": "Accounts",
-        "image": "",
-        "image_title": "Buy Verified Perfect Money Account ",
-        "min_price": 50,
-        "max_price": 120,
-        "badge_color": "blue",
-        "is_sale": true,
-        "short_description": "Short description here.",
-        "meta_description": "",
-        "features": [
-            "Feature 1",
-            "Feature 2"
-        ],
-        "pricing": [
-            "1 Account Starter $50",
-            "5 Accounts Pack $71",
-            "10 Accounts Bulk $92",
-            "20 Accounts Pro $120"
-        ],
-        "long_description": "<p>Detailed description...</p>",
-        "related_ids": []
-    },
-    {
         "id": 4,
         "active": true,
         "title": "Buy Verified Cash App Accounts",
         "display_title": "Verified Cash App Accounts",
         "slug": "verified-cash-app-accounts",
         "category": "Accounts",
-        "image": "",
+        "image": "/images/products/BUY CASH APP ACCOUTNS.png",
         "image_title": "Buy Verified Cash App Accounts",
         "min_price": 100,
         "max_price": 400,
-        "badge_color": "solar",
+        "badge_color": "blue",
         "is_sale": true,
         "short_description": "Short description here.",
         "meta_description": "",

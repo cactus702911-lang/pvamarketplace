@@ -128,7 +128,7 @@ var products = [
     {
         "id": 13,
         "active": true,
-        "title": "GitHub Accounts – Aged & Verified Developer Profiles for Instant Repository Access",
+        "title": "Buy GitHub Accounts",
         "display_title": "GitHub Accounts",
         "slug": "github-accounts-aged-verified-developer-profiles-for-instant-repository-access",
         "category": "Accounts",

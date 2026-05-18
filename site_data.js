@@ -55,7 +55,7 @@ var categories = [
             "Verified Paxful Accounts",
             "Verified Payoneer Account ",
             "Verified Neteller Accounts",
-            "GitHub Accounts – Aged & Verified Developer Profiles for Instant Repository Access"
+            "GitHub Accounts"
         ]
     }
 ];
@@ -129,7 +129,7 @@ var products = [
         "id": 13,
         "active": true,
         "title": "GitHub Accounts – Aged & Verified Developer Profiles for Instant Repository Access",
-        "display_title": "",
+        "display_title": "GitHub Accounts",
         "slug": "github-accounts-aged-verified-developer-profiles-for-instant-repository-access",
         "category": "Accounts",
         "image": "",

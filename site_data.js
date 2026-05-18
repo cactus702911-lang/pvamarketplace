@@ -47,7 +47,6 @@ var categories = [
         "content": "\n            <h2 class=\"text-3xl font-bold text-white mb-6\">Premium Verified Accounts for Every Platform</h2>\n            <p class=\"text-slate-300 mb-4 text-lg\">\n                In the digital age, access is everything. Whether you're a developer needing a **GitHub** account, a marketer targeting **Instagram** and **Twitter**, or exploring niche platforms like **Tinder**, \n                having a verified, ready-to-use account saves you time and hassle.\n            </p>\n            <p class=\"text-slate-300 mb-8 text-lg\">\n                **Realpvashop** is your one-stop marketplace for high-quality PVA (Phone Verified Accounts). We take care of the verification process so you can focus on what matters?your business.\n            </p>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Why Buy Verified Accounts?</h3>\n            <div class=\"grid grid-cols-1 md:grid-cols-3 gap-6 mb-8\">\n                <div class=\"bg-[#1E293B] p-5 rounded-xl text-center\">\n                    <i data-lucide=\"shield-check\" class=\"w-10 h-10 text-green-400 mx-auto mb-3\"></i>\n                    <h4 class=\"font-bold text-white mb-2\">Instant Access</h4>\n                    <p class=\"text-slate-400 text-sm\">Skip the sign-up and verification delays. Get credentials instantly.</p>\n                </div>\n                <div class=\"bg-[#1E293B] p-5 rounded-xl text-center\">\n                    <i data-lucide=\"globe\" class=\"w-10 h-10 text-blue-400 mx-auto mb-3\"></i>\n                    <h4 class=\"font-bold text-white mb-2\">Global Reach</h4>\n                    <p class=\"text-slate-400 text-sm\">Accounts available from USA, UK, EU, and other top tier regions.</p>\n                </div>\n                <div class=\"bg-[#1E293B] p-5 rounded-xl text-center\">\n                    <i data-lucide=\"lock\" class=\"w-10 h-10 text-purple-400 mx-auto mb-3\"></i>\n                    <h4 class=\"font-bold text-white mb-2\">Ban Resistant</h4>\n                    <p class=\"text-slate-400 text-sm\">Created with unique IPs and device fingerprints for maximum safety.</p>\n                </div>\n            </div>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Popular Account Categories</h3>\n            <ul class=\"list-disc pl-5 space-y-3 mb-8 text-slate-300\">\n                <li><strong>Instagram Accounts:</strong> Perfect for influencer marketing and brand flipping.</li>\n                <li><strong>Twitter (X) Accounts:</strong> Essential for crypto projects and news dissemination.</li>\n                <li><strong>GitHub Accounts:</strong> Aged accounts for developers to host repositories with trust.</li>\n                <li><strong>Tinder Accounts:</strong> Verified profiles for dating app marketing.</li>\n            </ul>\n\n            <p class=\"text-slate-300\">\n                Don't let verification hurdles slow you down. Browse our diverse catalog of verified accounts below and get started today.\n            </p>\n        ",
         "items": [
             "Verified Cash App Accounts",
-            "Verified Binance Account",
             "Perfect Money Account ",
             "Verified FTX Account ",
             "Verified WebMoney Account",
@@ -129,7 +128,7 @@ var products = [
     {
         "id": 14,
         "active": true,
-        "title": "Verified Binance Accounts – KYC-Approved Crypto Trading Profiles for Instant Market Access",
+        "title": "Buy Verified Binance Accounts",
         "display_title": "Verified Binance Accounts",
         "slug": "verified-binance-accounts--kyc-approved-crypto-trading-profiles-for-instant-market-access",
         "category": "Accounts",
@@ -424,33 +423,6 @@ var products = [
             "5 Accounts Pack $190",
             "10 Accounts Bulk $280",
             "20 Accounts Pro $400"
-        ],
-        "long_description": "<p>Detailed description...</p>",
-        "related_ids": []
-    },
-    {
-        "id": 3,
-        "active": true,
-        "title": "Buy Verified Binance Account",
-        "display_title": "Verified Binance Account",
-        "slug": "buy-verified-binance-account",
-        "category": "Accounts",
-        "image": "",
-        "image_title": "Buy Verified Binance Account",
-        "min_price": 290,
-        "max_price": 830,
-        "badge_color": "pink",
-        "is_sale": true,
-        "short_description": "Short description here.",
-        "meta_description": "",
-        "features": [
-            "Feature 1",
-            "Feature 2"
-        ],
-        "pricing": [
-            "01 Verified Binance Accounts Only $290",
-            "02 Verified Binance Accounts Only $560",
-            "03 Verified Binance Accounts Only $830"
         ],
         "long_description": "<p>Detailed description...</p>",
         "related_ids": []
